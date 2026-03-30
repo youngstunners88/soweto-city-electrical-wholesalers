@@ -1,0 +1,20 @@
+{
+  "businessName": "Soweto City Electrical Wholesalers",
+  "category": "electrical",
+  "brandColors": {
+    "primary": "#E67E22",
+    "secondary": "#EB984E",
+    "accent": "#2ECC71",
+    "dark": "#CA6F1E",
+    "light": "#FEF5E7"
+  },
+  "tagline": "Safe & Reliable",
+  "services": [
+    "Emergency Repairs",
+    "Installations",
+    "Fault Finding",
+    "Maintenance",
+    "Rewiring",
+    "Safety Inspections"
+  ]
+}

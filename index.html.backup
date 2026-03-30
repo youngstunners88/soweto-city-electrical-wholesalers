@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soweto City Electrical Wholesalers | Malhalfele Rd</title>
+<meta name="description" content="Soweto City Electrical Wholesalers - Professional professional services in Malhalfele Rd. Call 011 982 5588">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}:root{--p:#1a5276;--s:#154360;--d:#0e2f44;--l:#eaf2f8;--a:#f39c12}
+body{font-family:'Inter',sans-serif;color:#333;line-height:1.6}a{text-decoration:none}
+nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);box-shadow:0 2px 20px rgba(0,0,0,.08);padding:12px 0}
+.nav-inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:1.1rem;color:var(--d)}.nav-links{display:flex;gap:24px;align-items:center}.nav-links a{font-weight:600;color:#666;font-size:.9rem}
+.nav-cta{background:var(--p)!important;color:#fff!important;padding:8px 20px;border-radius:6px;font-weight:700}
+.hero{min-height:100vh;display:flex;align-items:center;background:linear-gradient(135deg,var(--d) 0%,var(--s) 100%);color:#fff;padding-top:70px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200') center/cover;opacity:.12}
+.hero-inner{max-width:1100px;margin:0 auto;padding:60px 20px;position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.hero h1{font-size:2.4rem;font-weight:800;line-height:1.15;margin-bottom:16px}.hero p{font-size:1.05rem;color:rgba(255,255,255,.8);margin-bottom:24px}
+.hero-image{border-radius:14px;overflow:hidden;box-shadow:0 16px 50px rgba(0,0,0,.3)}.hero-image img{width:100%;display:block}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:14px 32px;border-radius:8px;font-weight:700;font-size:1rem;transition:transform .2s}
+.btn-primary{background:var(--a);color:var(--d)}.btn-primary:hover{transform:translateY(-2px)}
+.stats{background:#fff;padding:36px 20px;border-bottom:1px solid #eee}.stats-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:center;gap:50px;flex-wrap:wrap;text-align:center}
+.stat h3{font-size:1.4rem;font-weight:800;color:var(--p)}.stat p{font-size:.85rem;color:#666}
+.services{padding:80px 20px;background:var(--l)}.sh{text-align:center;margin-bottom:50px}.sh h2{font-size:2.2rem;font-weight:800;color:var(--d)}.sh p{color:#666;max-width:500px;margin:8px auto 0}
+.sg{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.sc{background:#fff;border-radius:14px;padding:32px 24px;box-shadow:0 3px 16px rgba(0,0,0,.05);border-top:3px solid var(--p);transition:transform .3s}.sc:hover{transform:translateY(-4px)}
+.sc .icon{font-size:2rem;margin-bottom:16px}.sc h3{font-size:1.2rem;font-weight:700;margin-bottom:8px;color:var(--d)}.sc p{color:#666;font-size:.95rem}
+.about{padding:80px 20px;background:#fff}.about-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about-img{border-radius:14px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.08)}.about-img img{width:100%;display:block}
+.about h2{font-size:2.2rem;font-weight:800;margin-bottom:16px;color:var(--d)}.about p{color:#666;margin-bottom:12px;font-size:1rem}
+.gallery{padding:80px 20px;background:var(--l)}.gg{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gi{border-radius:10px;overflow:hidden;aspect-ratio:4/3;box-shadow:0 3px 12px rgba(0,0,0,.08)}.gi img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.gi:hover img{transform:scale(1.05)}
+.contact{padding:80px 20px;background:#fff}.ci{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.contact h2{font-size:2.2rem;font-weight:800;margin-bottom:16px;color:var(--d)}.cti{margin-top:24px}.ct{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.ct .ic{width:46px;height:46px;border-radius:10px;background:var(--l);display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+.ct h4{font-weight:700;margin-bottom:2px}.ct a,.ct p{color:#666}.ct a:hover{color:var(--p)}
+footer{background:var(--d);color:rgba(255,255,255,.5);padding:50px 20px 24px}.ft-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr;gap:40px}
+footer h4{color:#fff;margin-bottom:12px;font-size:.95rem}footer ul{list-style:none}footer li{margin-bottom:8px;font-size:.9rem}
+footer a{color:rgba(255,255,255,.5);transition:color .3s}footer a:hover{color:var(--a)}
+.ft-bottom{max-width:1100px;margin:30px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);text-align:center;font-size:.85rem}
+@media(max-width:768px){.nav-links{display:none}.hero-inner{grid-template-columns:1fr;text-align:center}.hero h1{font-size:1.8rem}.hero-image{display:none}.about-inner,.ci{grid-template-columns:1fr}.ft-inner{grid-template-columns:1fr}.gg{grid-template-columns:1fr}}
+</style></head><body>
+<nav><div class="nav-inner">
+<a href="#" class="logo">Soweto City Electrical Wholesalers</a>
+<div class="nav-links"><a href="#services">Services</a><a href="#about">About</a><a href="#gallery">Our Work</a><a href="#contact" class="nav-cta">📞 011 982 5588</a></div>
+</div></nav>
+<section class="hero"><div class="hero-inner">
+<div><h1>Soweto City Electrical Wholesalers — Professional Professional services in Malhalfele Rd</h1><p>Quality professional services services in Malhalfele Rd, Johannesburg. Rated 4.2 stars by 5+ customers. Reliable work you can count on.</p><a href="tel:0119825588" class="btn btn-primary">📞 Call 011 982 5588</a></div>
+<div class="hero-image"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200" alt="Soweto City Electrical Wholesalers"></div>
+</div></section>
+<section class="stats"><div class="stats-inner">
+<div class="stat"><h3>⭐4.2</h3><p>5+ reviews</p></div>
+<div class="stat"><h3>📍Malhalfele Rd</h3><p>Johannesburg</p></div>
+<div class="stat"><h3>🕐 Fast</h3><p>Response</p></div>
+<div class="stat"><h3>✅ Quality</h3><p>Guaranteed</p></div>
+</div></section>
+<section class="services" id="services"><div class="sh"><h2>Our Services</h2><p>Professional professional services solutions for your home or business</p></div>
+<div class="sg"><div class="sc"><div class="icon">🔧</div><h3>Service 1</h3><p>Professional service.</p></div><div class="sc"><div class="icon">📋</div><h3>Service 2</h3><p>Quality workmanship.</p></div><div class="sc"><div class="icon">🏗️</div><h3>Service 3</h3><p>New installations.</p></div><div class="sc"><div class="icon">🔍</div><h3>Service 4</h3><p>Inspection and diagnosis.</p></div><div class="sc"><div class="icon">🛡️</div><h3>Service 5</h3><p>Maintenance and repair.</p></div><div class="sc"><div class="icon">🚨</div><h3>Emergency</h3><p>24/7 availability.</p></div></div></section>
+<section class="about" id="about"><div class="about-inner">
+<div class="about-img"><img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800" alt="About Soweto City Electrical Wholesalers"></div>
+<div><h2>About Soweto City Electrical Wholesalers</h2><p>Soweto City Electrical Wholesalers provides professional professional services services in Malhalfele Rd. With a 4.2-star rating from 5+ customers, we're committed to quality.</p><p>Contact us today for a free quote.</p></div>
+</div></section>
+<section class="gallery" id="gallery"><div class="sh"><h2>Our Work</h2><p>Quality professional services across Johannesburg</p></div>
+<div class="gg"><div class="gi"><img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600" alt="Soweto City Electrical Wholesalers work" loading="lazy"></div><div class="gi"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600" alt="Soweto City Electrical Wholesalers work" loading="lazy"></div><div class="gi"><img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600" alt="Soweto City Electrical Wholesalers work" loading="lazy"></div></div></section>
+<section class="contact" id="contact"><div class="ci">
+<div><h2>Get In Touch</h2><p>Need professional services services? Contact Soweto City Electrical Wholesalers.</p>
+<div class="cti">
+<div class="ct"><div class="ic">📞</div><div><h4>Phone</h4><a href="tel:0119825588">011 982 5588</a></div></div>
+<div class="ct"><div class="ic">📍</div><div><h4>Location</h4><p>Rob Ctr, Malhalfele Rd, Dube, Soweto, 1801, South Africa</p></div></div>
+</div></div>
+<div><iframe src="https://maps.google.com/maps?q=Rob%20Ctr%2C%20Malhalfele%20Rd%2C%20Dube%2C%20Soweto%2C%201801%2C%20South%20Africa&output=embed&z=15" width="100%" height="380" style="border:0;border-radius:14px" loading="lazy"></iframe></div>
+</div></section>
+<footer><div class="ft-inner">
+<div><div style="font-weight:800;color:#fff;margin-bottom:8px">Soweto City Electrical Wholesalers</div><p>Professional professional services in Malhalfele Rd.</p></div>
+<div><h4>Contact</h4><ul><li><a href="tel:0119825588">📞 011 982 5588</a></li><li>📍 Rob Ctr, Malhalfele Rd, Dube, Soweto, 1801, South Africa</li></ul></div>
+</div><div class="ft-bottom"><p>&copy; 2026 Soweto City Electrical Wholesalers | Malhalfele Rd</p></div></footer>
+</body></html>
